@@ -12,18 +12,26 @@
 
 <body>
    
-    
+ <div id="container">   
 
 
    <!-- MENU -->
    
-   <div class="header">
-        <div class="logo"></div>
-        <div class="navigation"></div>
+   <div id="header">
+        <div class="logo"><img src="img/logo-evs.png" width="153" height="95" alt="En Voiture Simone"/></div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">LES DÉFIS</a></li>
+                <li><a href="#">LES CHALLENGERS</a></li>
+            </ul>
+        </div>
         <div class="sociaux">
-   </div>
+                <a class="facebook" target="_blank" href="https://www.facebook.com/pages/En-Voiture-Simone/1488379481451366?notif_t=page_new_likes"></a>
+                <a class="twitter" target="_blank"href="https://twitter.com/EnVoitureSim0ne"></a>
+                <a class="instagram" target="_blank"href="http://instagram.com/en_voituresimone"></a>
+        </div>
    
-
+    </div>
 
 
 
@@ -34,14 +42,17 @@
     </div>
 
 
-
+    <!-- SLIDER -->
+    <div id="slider">
+        <img src="img/cartons/DEFI_5.jpg" alt="Défi n°5 - En Voiture Simone"/>
+    </div>
 
 
 
     <!-- PARTAGE RESEAUX SOCIAUX -->
-    <div class="partage">
-        <div class="facebook"></div>
-        <div class="twitter"></div>
+    <div id="partage">
+        <a class="btn-facebook" target="_blank" href=""><img src="img/btn-fb.png"/></a>
+        <a class="btn-twitter" target="_blank" href=""><img src="img/btn-twt.png"/></a>
     </div>
 
 
@@ -51,7 +62,10 @@
 
     <!-- PHRASE DE PRESENTATION -->
 
-    <div class="presentation"></div>
+    <div class="presentation">
+        
+        <h2>Défie tes grands-parents, ils pourraient te surprendre !</h2>
+    </div>
 
 
 
@@ -59,7 +73,7 @@
 
     <!-- COMPTEUR DE DEFIS ENVOYE  -->
 
-    <div class="container_defis">    
+    <div id="container_defis">    
         <div class="compteur_defis"></div>
     </div>
 
@@ -69,10 +83,13 @@
 
     <!-- FOOTER -->
 
-    <div class="footer">
-        <div class="mentions_legales"></div>
-    </div>
+    <div id="footer">
+       <ul>
+            <li><a href="#">En Voiture Simone2014</a></li>
+            <li><a href="#">Créé par Agence Suricates</a></li> 
+            <li><a href="#">Mentions Légales</a></li>
+       </ul>
 
-
+</div>
 </body>
 </html>

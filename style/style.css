@@ -1,0 +1,210 @@
+/** 2014 - En Voiture Simone **/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/** HEADER **/
+
+#header{
+	height:150px;
+	width: 960px;
+	margin:0px auto;
+}
+
+.logo, .navigation, .sociaux{
+	float: left;
+	display: inline-block;
+
+}
+.navigation{
+	padding:35px 0px 0px 30px;
+}
+
+.sociaux{
+	padding:15px 0px 0px 90px;
+}
+
+.navigation li {
+	
+	display: inline-block;
+	float: left;
+	padding-left: 50px;
+
+
+}
+
+.navigation a{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	color: #bc2133;
+	border-top: 3px solid #f9c87c;
+	border-bottom: 3px solid #f9c87c;
+	
+
+
+}
+
+a.facebook
+{
+	background: url("../img/icons/facebook-64.png") 0 0 no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+
+}
+
+
+
+a.twitter
+{
+	background: url("../img/icons/facebook-64.png") 0 0 no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+
+}
+
+
+
+a.instagram
+{
+	background: url("../img/icons/facebook-64.png") 0 0 no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+
+}
+
+/** FIN HEADER **/
+
+/** SLOGAN **/
+.slogan{
+	height: 90px;
+	background-color:#f9c87c;
+}
+
+.slogan h1{
+	color: #bc2133;
+	font-size: 60px;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+	padding-top: 1%;
+}
+
+/** FIN SLOGAN **/
+#slider{
+
+	width: 960px;
+	margin: 30px auto;
+}
+
+/** PARTAGE **/
+#partage{
+	text-align: center;
+}
+
+#partage img{
+	padding:30px;
+}
+/** FIN PARTAGE **/
+
+/** PRESENTATION **/
+
+.presentation{
+	height:90px;
+	background-color: #c95665;
+	margin-top: 30px;
+}
+
+.presentation h2{
+	color: #FFF;
+	font-size: 55px;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+}
+
+/** PRESENTATION **/
+
+/** COMPTEUR DE DEFIS **/
+
+#container_defis{
+	height: 400px;
+}
+
+/** FIN COMPTEUR DE DEFIS **/
+/** FOOTER **/
+
+#footer{
+	height: 50px;
+	background-color: #217d66;
+	display: block;
+
+	bottom: 0;
+}
+
+#footer ul{
+	width: 750px;
+	margin:0px auto;
+
+}
+#footer li{
+	float: left;
+	padding: 20px 0px 0px 40px;
+
+}
+
+#footer a{
+	color: #FFF;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+/** FIN FOOTER **/
