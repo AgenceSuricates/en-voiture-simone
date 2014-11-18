@@ -38,8 +38,12 @@
         <div class="navigation">
             <ul>
                 <li><a href="#">LES DÉFIS</a></li>
+<<<<<<< HEAD
                 <li><a href="#">LES CHALLENGERS</a></li>
                 <li><a href="#">JEUX CONCOURS</a></li>
+=======
+                <li><a href="onglets/gallerie.php">LES CHALLENGERS</a></li>
+>>>>>>> FETCH_HEAD
             </ul>
         </div>
         <div class="sociaux">
