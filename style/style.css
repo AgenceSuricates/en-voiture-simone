@@ -140,7 +140,7 @@ a.instagram
 /** SLOGAN **/
 .slogan{
 	height: 75px;
-	background-color:#f9c87c;
+	background-color:#ff9933;
 }
 
 .slogan h1{
@@ -260,10 +260,12 @@ a.instagram
 
 .st-wrapper nav span:first-child {
 	left: -11%;
+	top:65%;
 }
 
 .st-wrapper nav span:last-child {
 	left: 103%;
+	top:65%;
 }
 .st-wrapper nav span.prev{
 	background-image: url(../images/arrow-left.png);

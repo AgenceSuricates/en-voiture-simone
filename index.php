@@ -24,6 +24,7 @@
     <script type="text/javascript">
     function ouvre(fichier) {ff=window.open(fichier,"popup","width=700,height=500,left=100,top=100") }
     </script>
+
 </head>
 
 <body>
@@ -38,12 +39,10 @@
         <div class="navigation">
             <ul>
                 <li><a href="#">LES DÉFIS</a></li>
-<<<<<<< HEAD
-                <li><a href="#">LES CHALLENGERS</a></li>
-                <li><a href="#">JEUX CONCOURS</a></li>
-=======
+
                 <li><a href="onglets/gallerie.php">LES CHALLENGERS</a></li>
->>>>>>> FETCH_HEAD
+                <li><a href="#">JEUX CONCOURS</a></li>
+
             </ul>
         </div>
         <div class="sociaux">
@@ -130,17 +129,15 @@
 
 
 
-
-
     <!-- COMPTEUR DE DEFIS ENVOYE  -->
 
     <div id="container_defis">    
-        <div class="compteur_defis"></div>
+        <div class="compteur_defis">
+        <?php
+           include('compteur.php'); 
+        ?>
+        </div>
     </div>
-
-
-
-
 
     <!-- FOOTER -->
 
